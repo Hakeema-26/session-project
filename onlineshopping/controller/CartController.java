@@ -37,5 +37,4 @@ public class CartController {
 	public List<Products> getCart(@PathVariable Integer id) throws UserNotFoundException {
 
 		return cartService.getCart(id);
-	}
-}
+
