@@ -2,14 +2,6 @@ package com.batch2.onlineshopping.controller;
 
 import java.util.ArrayList;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
-import org.springframework.security.authentication.AuthenticationManager;
-import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
-import org.springframework.security.core.userdetails.UserDetails;
-
-
 
 import com.batch2.onlineshopping.config.JwtUtils;
 import com.batch2.onlineshopping.entity.LoginRequest;
