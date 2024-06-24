@@ -11,7 +11,7 @@ import com.batch2.onlineshopping.service.JpaUserDetailsService;
 import jakarta.servlet.http.Cookie;
 import jakarta.servlet.http.HttpServletResponse;
 
-@RestController
+
 @RequestMapping("/api/auth")
 public class AuthController {
 	
