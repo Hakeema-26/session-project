@@ -9,10 +9,7 @@ import com.batch2.onlineshopping.entity.LoginResponse;
 import com.batch2.onlineshopping.service.JpaUserDetailsService;
 
 import jakarta.servlet.http.Cookie;
-import jakarta.servlet.http.HttpServletResponse;
-
-
-@RequestMapping("/api/auth")
+import jakarta.servle
 public class AuthController {
 	
 	@Autowired
