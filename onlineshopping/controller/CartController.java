@@ -8,9 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
 
-import com.batch2.onlineshopping.entity.Products;
 import com.batch2.onlineshopping.exceptions.ProductNotFoundException;
 import com.batch2.onlineshopping.exceptions.UserNotFoundException;
 import com.batch2.onlineshopping.service.CartService;
